@@ -1,0 +1,69 @@
+@model Kitabim.Models.Book
+
+@{
+    ViewData["Title"] = "Ürünü Düzenle";
+}
+
+<h2>Ürünü Düzenle</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data" class="mt-4">
+    <input type="hidden" asp-for="Id" />
+    <!-- Kitap Adı -->
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <!-- Yazar -->
+    <div class="form-group">
+        <label asp-for="Author"></label>
+        <input asp-for="Author" class="form-control" />
+        <span asp-validation-for="Author" class="text-danger"></span>
+    </div>
+    <!-- Tür -->
+    <div class="form-group">
+        <label asp-for="Genre"></label>
+        <input asp-for="Genre" class="form-control" />
+        <span asp-validation-for="Genre" class="text-danger"></span>
+    </div>
+    <!-- Yayınevi -->
+    <div class="form-group">
+        <label asp-for="Publisher"></label>
+        <input asp-for="Publisher" class="form-control" />
+        <span asp-validation-for="Publisher" class="text-danger"></span>
+    </div>
+    <!-- Fiyat -->
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+    <!-- Stok -->
+    <div class="form-group">
+        <label asp-for="Stock"></label>
+        <input asp-for="Stock" class="form-control" />
+        <span asp-validation-for="Stock" class="text-danger"></span>
+    </div>
+    <!-- Mevcut Resim -->
+    <div class="form-group">
+        <label>Mevcut Resim</label><br />
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" alt="@Model.Title" style="max-width: 200px;" />
+        }
+        else
+        {
+            <p>Resim Yok</p>
+        }
+    </div>
+    <!-- Resim Yükle -->
+    <div class="form-group">
+        <label>Yeni Resim Seç (Değiştirmek için)</label>
+        <input type="file" name="ImageFile" class="form-control-file" />
+    </div>
+    <button type="submit" class="btn btn-primary">Güncelle</button>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

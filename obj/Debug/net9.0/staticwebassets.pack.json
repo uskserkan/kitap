@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\kitap.bundle.scp.css",
+      "PackagePath": "staticwebassets\\kitap.7cvcwoblru.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\css\\tailwind.css",
+      "PackagePath": "staticwebassets\\css\\tailwind.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\0ddd606d-b1f0-4aa7-9b8a-57001ed1007f_6-tr.jpg",
+      "PackagePath": "staticwebassets\\images\\0ddd606d-b1f0-4aa7-9b8a-57001ed1007f_6-tr.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\1454522c-0748-4685-9b08-507fc38d5d7a6-tr.jpg",
+      "PackagePath": "staticwebassets\\images\\1454522c-0748-4685-9b08-507fc38d5d7a6-tr.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\533fc99a-cb2f-45bd-8b07-d4c6f1dba28d_6-tr.jpg",
+      "PackagePath": "staticwebassets\\images\\533fc99a-cb2f-45bd-8b07-d4c6f1dba28d_6-tr.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\5c96e13f-2fb8-4a4c-a409-7a48d288e1c8_6-tr.jpg",
+      "PackagePath": "staticwebassets\\images\\5c96e13f-2fb8-4a4c-a409-7a48d288e1c8_6-tr.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\6-tr.jpg",
+      "PackagePath": "staticwebassets\\images\\6-tr.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\62aa34a9-0469-4556-a16d-dd1dbe3e1b4b_resim1-1740492010[1].jpg",
+      "PackagePath": "staticwebassets\\images\\62aa34a9-0469-4556-a16d-dd1dbe3e1b4b_resim1-1740492010[1].jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\6d306173-ea89-4566-9568-36d49519192c_indir.jpg",
+      "PackagePath": "staticwebassets\\images\\6d306173-ea89-4566-9568-36d49519192c_indir.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\barbarlarin-bahari.jpg",
+      "PackagePath": "staticwebassets\\images\\barbarlarin-bahari.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\ebd07f3b-f380-4a62-943d-d7ac7f1fb944_6-tr.jpg",
+      "PackagePath": "staticwebassets\\images\\ebd07f3b-f380-4a62-943d-d7ac7f1fb944_6-tr.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\macaristan-1919-ve-1956.jpg",
+      "PackagePath": "staticwebassets\\images\\macaristan-1919-ve-1956.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\macaristanda-mehter.jpg",
+      "PackagePath": "staticwebassets\\images\\macaristanda-mehter.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\mailservice2.jpg",
+      "PackagePath": "staticwebassets\\images\\mailservice2.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\oteki-caz.jpg",
+      "PackagePath": "staticwebassets\\images\\oteki-caz.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\rosa1-1615270184.jpg",
+      "PackagePath": "staticwebassets\\images\\rosa1-1615270184.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\ruzgarlikasaba.jpg",
+      "PackagePath": "staticwebassets\\images\\ruzgarlikasaba.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\slide1.png",
+      "PackagePath": "staticwebassets\\images\\slide1.png"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\slide2.png",
+      "PackagePath": "staticwebassets\\images\\slide2.png"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\slide3.png",
+      "PackagePath": "staticwebassets\\images\\slide3.png"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\subat.png",
+      "PackagePath": "staticwebassets\\images\\subat.png"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\tarihte-bireyinrolu.jpg",
+      "PackagePath": "staticwebassets\\images\\tarihte-bireyinrolu.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\temel-muzik.jpg",
+      "PackagePath": "staticwebassets\\images\\temel-muzik.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\tgid.jpg",
+      "PackagePath": "staticwebassets\\images\\tgid.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\images\\trduzen.jpg",
+      "PackagePath": "staticwebassets\\images\\trduzen.jpg"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "c:\\Users\\usaks\\OneDrive\\Desktop\\kitap\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.kitap.props",
+      "PackagePath": "build\\kitap.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.kitap.props",
+      "PackagePath": "buildMultiTargeting\\kitap.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.kitap.props",
+      "PackagePath": "buildTransitive\\kitap.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.kitap.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.kitap.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

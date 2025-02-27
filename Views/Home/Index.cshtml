@@ -1,0 +1,51 @@
+﻿@using Kitabim.Models;
+@model IEnumerable<string>
+
+@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<br>
+
+<!-- Carousel Başlangıcı -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        @for (int i = 0; i < Model.Count(); i++)
+        {
+        
+            <li data-target="#carouselExampleIndicators" data-slide-to="@i" class="@(i == 0 ? "active" : "")"></li>
+        }
+    </ol>
+    <div class="carousel-inner">
+        @foreach (var (image, index) in Model.Select((value, i) => (value, i)))
+        {
+            <div class="carousel-item @(index == 0 ? "active" : "")">
+                <img class="d-block w-100" src="@Url.Content(image)" alt="Slide @index">
+            </div>
+        }
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!-- Carousel Sonu -->
+
+<!-- Partial View Çağırma -->
+@await Html.PartialAsync("LatestBooksPartial", ViewData["LatestBooks"])
+
+<br>
+<!-- Partial View Çağırma 2 -->
+@await Html.PartialAsync("ImagePartial")
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+}
+
+

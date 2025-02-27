@@ -1,0 +1,49 @@
+@model IEnumerable<Kitabim.Models.Book>
+
+<br>
+<h2 style="text-align: center;">------------ <strong>Öne Çıkanlar</strong> ------------</h2>
+<br>
+<div class="row">
+    @foreach (var book in Model)
+    {
+        <div class="col-md-3">
+            <div class="card mb-3 shadow-sm">
+                <img src="@book.ImageUrl" class="card-img-top" alt="@book.Title">
+                <div class="card-body">
+                    <h5 class="card-title">@book.Title</h5>
+                    <p class="card-text">@book.Author</p>
+                    <p class="card-text"><strong>Fiyat:</strong> @book.Price.ToString("C")</p>
+                    <a asp-controller="Products" asp-action="Details" asp-route-id="@book.Id" class="btn btn-primary">Detaylar</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<div class="text-center">
+    <a asp-controller="Products" asp-action="Index" class="btn btn-secondary">Tüm Kitapları Gör</a>
+</div>
+
+
+<style>
+    .card-img-top {
+        width: 100%;
+        height: 200px; /* Sabit resim yüksekliği */
+        object-fit: contain;
+    }
+
+    .card {
+        width: 70%; /* Sabit kart genişliği */
+        height: 380px; /* Sabit kart yüksekliği */
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: calc(100% - 200px); /* Kartın kalan yüksekliği */
+    }
+
+    .card-title, .card-text {
+        margin-bottom: 10px; /* Metinler arasında boşluk */
+    }
+</style>

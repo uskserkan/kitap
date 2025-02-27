@@ -1,0 +1,10 @@
+@* Views/Shared/ImagePartial.cshtml *@
+
+@{
+    var imagePath = Url.Content("~/images/subat.png");
+    var linkUrl = Url.Action("Index", "Products");
+}
+
+<a href="@linkUrl">
+    <img src="@imagePath" alt="" />
+</a>

@@ -1,0 +1,90 @@
+﻿<!-- Layout.cshtml -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Kitabim</title>
+    <link href="~/css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="container mx-auto px-4">
+    <header class="mb-6">
+        <nav class="bg-blue-500 p-4 rounded-lg border border-gray-200">
+            <div class="container mx-auto flex justify-between items-center">
+                <a href="/" class="text-white text-2xl font-bold">Kitabım</a>
+                <div class="flex space-x-4">
+                    <a href="/" class="text-white">Anasayfa</a>
+                    <a href="/Home/About" class="text-white">Hakkımızda</a>
+                    <a href="/Home/Contact" class="text-white">İletişim</a>
+                    <a href="/Products" class="text-white">Kitaplar</a>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a href="/Admin/Products" class="text-white">Admin Paneli</a>
+                    }
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="relative">
+                        <button class="text-white focus:outline-none" onclick="toggleUserMenu()">
+                            <i class="fas fa-user"></i>
+                        </button>
+                        <div id="userMenu" class="hidden absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-2">
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+                                <a href="/Account/Login" id="loginLink"
+                                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Giriş Yap</a>
+                                <a href="/Account/Register" id="registerLink"
+                                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Kayıt Ol</a>
+                            }
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a href="/Account/Profile" id="profileLink"
+                                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Profil</a>
+                                <form asp-controller="Account" asp-action="Logout" method="post" id="logoutForm"
+                                    class="inline-block">
+                                    <button type="submit" id="logoutLink"
+                                        class="block px-4 py-2 text-gray-800 hover:bg-gray-200 w-full text-left">Çıkış
+                                        Yap</button>
+                                </form>
+                            }
+                        </div>
+                    </div>
+                    <a href="/Cart" class="text-white">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">@ViewBag.CartCount</span> <!-- Sepet Sayısı -->
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" class="container mx-auto py-4">
+        @RenderBody()
+    </main>
+
+    <footer class="bg-blue-500 text-white p-4 text-center border border-gray-200 mx-4">
+        &copy; 2025 - Kitabim - All Rights Reserved
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    @RenderSection("Scripts", required: false)
+
+    <script>
+        // User dropdown toggle logic
+        function toggleUserMenu() {
+            var dropdown = document.getElementById('userMenu');
+            dropdown.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
+

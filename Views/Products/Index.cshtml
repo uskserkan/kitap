@@ -1,0 +1,116 @@
+@using Kitabim.Models
+@model PaginatedList<Kitabim.Models.Book>
+
+@{
+    ViewData["Title"] = "Kitaplar";
+}
+
+<div class="row">
+    <div class="col-md-3">
+        <h4><b>Kategoriler</b></h4>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a asp-controller="Products" asp-action="Index">Tüm Kitaplar</a>
+            </li>
+            @foreach (var genre in ViewData["Genres"] as List<string>)
+            {
+                <li class="list-group-item">
+                    <a asp-controller="Products" asp-action="Index" asp-route-genre="@genre">@genre</a>
+                </li>
+            }
+        </ul>
+
+        <h4><b>Sırala</b></h4>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a asp-controller="Products" asp-action="Index" asp-route-sortOrder="price_asc">Fiyat: Düşükten Yükseğe</a>
+            </li>
+            <li class="list-group-item">
+                <a asp-controller="Products" asp-action="Index" asp-route-sortOrder="price_desc">Fiyat: Yüksekten Düşüğe</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-9">
+          <form asp-controller="Products" asp-action="Index" method="get">
+            <div class="input-group mb-3">
+                <input type="text" name="searchString" value="@ViewData["CurrentFilter"]" class="form-control" placeholder="Kitap ara...">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit">Ara</button>
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="@item.ImageUrl" class="card-img-top" alt="@item.Title">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Title</h5>
+                            <p class="card-text">@item.Author</p>
+                            <p class="card-text"><strong>Fiyat:</strong> @item.Price.ToString("C")</p>
+                            <p class="card-text"><strong>Stok:</strong> @item.Stock</p>
+                            <a asp-controller="Products" asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Detaylar</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <nav aria-label="Sayfalandırma">
+            <ul class="pagination justify-content-center">
+                @if (Model.HasPreviousPage)
+                {
+                    <li class="page-item">
+                        <a class="page-link" asp-action="Index"
+                            asp-route-pageNumber="@(Model.PageIndex - 1)" aria-label="Önceki">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Önceki</span>
+                        </a>
+                    </li>
+                }
+                @for (var i = 1; i <= Model.TotalPages; i++)
+                {
+                    <li class="page-item @(i == Model.PageIndex ? "active" : "")">
+                        <a class="page-link" asp-action="Index" asp-route-pageNumber="@i">@i</a>
+                    </li>
+                }
+                @if (Model.HasNextPage)
+                {
+                    <li class="page-item">
+                        <a class="page-link" asp-action="Index"
+                            asp-route-pageNumber="@(Model.PageIndex + 1)" aria-label="Sonraki">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Sonraki</span>
+                        </a>
+                    </li>
+                }
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<style>
+    .card-img-top {
+        width: 100%;
+        height: 400px; /* Sabit resim yüksekliği */
+        object-fit: contain;
+    }
+
+    .card {
+        width: 100%; /* Sabit kart genişliği */
+        height: 600px; /* Sabit kart yüksekliği */
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: calc(100% - 200px); /* Kartın kalan yüksekliği */
+    }
+
+    .card-title, .card-text {
+        margin-bottom: 10px; /* Metinler arasında boşluk */
+    }
+</style>
+
+

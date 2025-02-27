@@ -1,0 +1,44 @@
+@model Kitabim.Models.ShoppingCart
+
+@{
+    ViewData["Title"] = "Sepetim";
+    ViewBag.CartCount = Model.Items.Sum(i => i.Quantity); // Sepet sayısını ayarla
+}
+
+<h2><b>Sepetim</b></h2>
+
+@if (Model.Items.Count == 0)
+{
+    <p>Sepetinizde ürün bulunmamaktadır.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Kitap</th>
+                <th>Adet</th>
+                <th>Fiyat</th>
+                <th>Toplam</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Items)
+            {
+                <tr>
+                    <td>@item.Book.Title</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Book.Price</td>
+                    <td>@(item.Quantity * item.Book.Price)</td>
+                    <td>
+                        <a href="/Cart/RemoveFromCart?bookId=@item.BookId" class="btn btn-danger">Kaldır</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a href="/Cart/ClearCart" class="btn btn-warning">Sepeti Temizle</a>
+    <a href="/Checkout" class="btn btn-primary">Sepeti Onayla</a> 
+}
+

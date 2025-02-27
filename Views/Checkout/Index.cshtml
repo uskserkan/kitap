@@ -1,0 +1,63 @@
+@model Kitabim.Models.Checkout
+
+@{
+    ViewData["Title"] = "Ödeme Yap";
+}
+
+<h2>Sipariş Ver</h2>
+
+<form asp-action="Index" method="post">
+    <fieldset>
+        <legend>Adres Bilgileri</legend>
+        
+        <div class="form-group">
+            <label asp-for="ShippingAddress.FullName" class="control-label"></label>
+            <input asp-for="ShippingAddress.FullName" class="form-control" />
+            <span asp-validation-for="ShippingAddress.FullName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ShippingAddress.AddressLine1" class="control-label"></label>
+            <input asp-for="ShippingAddress.AddressLine1" class="form-control" />
+            <span asp-validation-for="ShippingAddress.AddressLine1" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ShippingAddress.AddressLine2" class="control-label"></label>
+            <input asp-for="ShippingAddress.AddressLine2" class="form-control" />
+            <span asp-validation-for="ShippingAddress.AddressLine2" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ShippingAddress.City" class="control-label"></label>
+            <input asp-for="ShippingAddress.City" class="form-control" />
+            <span asp-validation-for="ShippingAddress.City" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ShippingAddress.State" class="control-label"></label>
+            <input asp-for="ShippingAddress.State" class="form-control" />
+            <span asp-validation-for="ShippingAddress.State" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ShippingAddress.PostalCode" class="control-label"></label>
+            <input asp-for="ShippingAddress.PostalCode" class="form-control" />
+            <span asp-validation-for="ShippingAddress.PostalCode" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ShippingAddress.Country" class="control-label"></label>
+            <input asp-for="ShippingAddress.Country" class="form-control" />
+            <span asp-validation-for="ShippingAddress.Country" class="text-danger"></span>
+        </div>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Ödeme Yöntemi</legend>
+        <div class="form-group">
+            <label asp-for="PaymentMethod" class="control-label"></label>
+            <select asp-for="PaymentMethod" class="form-control">
+                <option value="CreditCard">Kredi Kartı</option>
+                <option value="Cash">Nakit</option>
+            </select>
+            <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+        </div>
+    </fieldset>
+    
+    <button type="submit" class="btn btn-primary">Sipariş Ver</button>
+</form>
